@@ -41,3 +41,7 @@ una Interfaz de estado, que nuestro objeto literal initialState dira que es de e
 
 luego el reducer dira que retorna un objeto que implementa la interfaz.
 y recibe el estado que implementa la interfaz, y la accion que sera un type.
+
+# clase 18, usando useReducer.
+implementamos el primer caso logout, al principio esta en estado de validacion, y al ratito pasa al estado logout.
+cambiando el cartel de "validando".
