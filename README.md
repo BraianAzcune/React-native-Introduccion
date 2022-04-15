@@ -45,3 +45,16 @@ y recibe el estado que implementa la interfaz, y la accion que sera un type.
 # clase 18, usando useReducer.
 implementamos el primer caso logout, al principio esta en estado de validacion, y al ratito pasa al estado logout.
 cambiando el cartel de "validando".
+
+# clase 19, terminando useReducer.
+
+cambiamos como se define el type AuthAction a dos posibles objetos.
+esto permite que cuando estamos dentro de un switch si entramos al case de logout nos advierta que el payload no esta disponible.
+
+ademas podemos usar 
+```js
+{
+    ...action.payload
+}
+```
+y si falta algun campo, nos avisara de que LoginPayload no satisface la definicion del IAuthState
