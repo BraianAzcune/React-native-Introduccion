@@ -9,7 +9,7 @@ export default function TiposBasicos() {
 
   return (
       <>
-          <h2>clase 8 tipos basicos</h2>
+          <h3>clase 8 tipos basicos</h3>
           <hr />
           {nombre}
           <hr />

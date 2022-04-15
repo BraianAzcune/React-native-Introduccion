@@ -22,7 +22,7 @@ export default function ObjetosLiterales() {
     };
     return (
         <div>
-            <h2>clase 12 objetos literales</h2>
+            <h3>clase 12 objetos literales</h3>
             <code>
                 <pre>{JSON.stringify(persona, null, 2)}</pre>
             </code>

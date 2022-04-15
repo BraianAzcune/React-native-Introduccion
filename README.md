@@ -14,7 +14,7 @@ borramos todo lo inutil, y creamos un template basico
 # clase 10 tipos basicos typescript
 jugando con definir tipos basicos.
 
-# clase 11 objetos literales e interfaces
+# clase 12 objetos literales e interfaces
 
 los objetos literales no se pueden mostrar asi como asi, es necesario recorrer sus atributos. o pasarlo por JSON.stringify.
 
@@ -25,3 +25,9 @@ las clases crean instancias.
 las interfaces no existen en javascript, asi que son 0 impacto, esta sirven para definir una estructura de datos en typescript y poder apoyarte de ellas.
 type es una version simple de las interfaces.
 
+# clase 13 funciones y su retorno
+mostrar que esta tipado el retorno aunque no lo explicitemos.
+
+# clase 14 hook useState
+
+# clase 15 custom hook useCounter
