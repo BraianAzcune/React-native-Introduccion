@@ -31,3 +31,13 @@ mostrar que esta tipado el retorno aunque no lo explicitemos.
 # clase 14 hook useState
 
 # clase 15 custom hook useCounter
+
+# clase 16 componente login, preparacion para practicar useReducer
+
+# clase 17, useReducer
+
+en Typescript para que el useReducer funcione correctamente tendremos que definir
+una Interfaz de estado, que nuestro objeto literal initialState dira que es de ese tipo.
+
+luego el reducer dira que retorna un objeto que implementa la interfaz.
+y recibe el estado que implementa la interfaz, y la accion que sera un type.
