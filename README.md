@@ -1,5 +1,17 @@
 # Curso REACT-NATIVE SECCION-2 REFORZAMIENTO Profesor: Fernando Herrera
 
+se recomienda tener instalado los plugins y herramientas que muestra aqui
+
+https://gist.github.com/Klerith/e2c1fe2bcf5bfcd0a12fff653e725284
+
+
+estos para vscode:
+
+(paste JSON an create typescript interface) https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype
+(autoimport typescript) https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter
+(React, redux, snippet) https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+(React, redux, snippet) https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets 
+
 ## clase 8 inicio
 
 creamos el proyecto Create-react-app con el template typescript.
@@ -58,3 +70,18 @@ ademas podemos usar
 }
 ```
 y si falta algun campo, nos avisara de que LoginPayload no satisface la definicion del IAuthState
+
+# clase 20-22 peticiones http axios, mostrar usuarios
+
+usuaremos esta api que esta siempre disponible para obtener fake data
+
+https://reqres.in/
+
+en particular:
+
+https://reqres.in/api/users?page=2
+
+esto nos devulve un json. Pero lo convertiremos a interfaces de Typescript para no equivocarnos, esto ademas lo haremos con el plugin que instalamos.
+
+Pero antes probarlo en Postman o Insomnia, para ver que la Raw data, venga bien.
+

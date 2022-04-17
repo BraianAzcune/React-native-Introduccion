@@ -18,7 +18,7 @@ const initialState: IAuthState = {
 type LoginPayload = {
     username: string;
     nombre: string;
-};
+};  
 
 type AuthAction = { type: 'logout' } | { type: 'login'; payload: LoginPayload };
 
