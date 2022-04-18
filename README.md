@@ -85,3 +85,9 @@ esto nos devulve un json. Pero lo convertiremos a interfaces de Typescript para 
 
 Pero antes probarlo en Postman o Insomnia, para ver que la Raw data, venga bien.
 
+# clase 23 crear paginacion
+
+en este caso hacemos uso de useRef, este hook es conocido para obtener una referencia a un nodo del DOM.
+pero tambien sirve para crear variables mutables que perduran entre renderizados, eso si cuando cambien no generaran un nuevo render.
+
+ademas enviamos parametros en el fetch de la forma moderna con fetch.
