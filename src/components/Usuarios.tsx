@@ -1,33 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
-import { Usuario, UsuariosResponse } from '../interfaces/reqRespUsuarios';
+import useUsuarios from '../hooks/useUsuarios';
+import { Usuario } from '../interfaces/reqRespUsuarios';
 
 export default function Usuarios() {
-    const [usuarios, setUsuarios] = useState<Usuario[]>([]);
-
-    const paginaRef = useRef(1);
-
-    const cargarUsuarios = () => {
-        fetch(
-            `https://reqres.in/api/users?${new URLSearchParams({
-                page: paginaRef.current.toString(),
-            })}`
-        )
-            .then((response) => response.json())
-            .then((data: UsuariosResponse) => {
-                console.log(data.data.length);
-                if (data.data.length > 0) {
-                    paginaRef.current++;
-                    setUsuarios(data.data);
-                } else {
-                    alert('No hay mas usuarios');
-                }
-            })
-            .catch((error) => console.error(error));
-    };
-
-    useEffect(() => {
-        cargarUsuarios();
-    }, []);
+    const { usuarios, cargarUsuarios } = useUsuarios();
 
     const renderItem = (usuario: Usuario) => {
         const { id, first_name, avatar, email } = usuario;

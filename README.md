@@ -91,3 +91,14 @@ en este caso hacemos uso de useRef, este hook es conocido para obtener una refer
 pero tambien sirve para crear variables mutables que perduran entre renderizados, eso si cuando cambien no generaran un nuevo render.
 
 ademas enviamos parametros en el fetch de la forma moderna con fetch.
+
+# clase 24 mover logica cargar usuarios y fetch a un custom hook.
+
+la forma de mover la logica a un custom hook es tomar toda la logica y mandarla el componente, luego al saber por lo que falla el componente que le faltan cosas es lo que deberia retornar el otro.
+
+Como saber si deberia mi custom hook un array o un objeto.
+
+Por lo general se retorna un array, para facilitar el cambio de nombre por parte del usuario, algo muy util cuando ese Hook va a ser usado mas de una vez en el componente, osea es un componente reutilizable.
+
+En nuestro caso es un componente especifico, lo creamos para reducir la carga mental que produce ver el componente usuario.
+retornamos un objeto porque los nombres deberian mantenerse.
