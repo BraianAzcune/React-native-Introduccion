@@ -102,3 +102,5 @@ Por lo general se retorna un array, para facilitar el cambio de nombre por parte
 
 En nuestro caso es un componente especifico, lo creamos para reducir la carga mental que produce ver el componente usuario.
 retornamos un objeto porque los nombres deberian mantenerse.
+
+# clase 25 implementar siguiente y anterior con desabilitacion de botones. 
