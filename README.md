@@ -109,3 +109,10 @@ retornamos un objeto porque los nombres deberian mantenerse.
 
 creacion de un formulario utilizando un estado compuesto, y modificando una propiedad del estado pasada por parametro.
 
+# clase 27, creando customHook formulario y aplicando genericos
+
+creamos un custom hook con la logica del formulario.
+
+ademas permitimos que sea generico, para poder ser reutilizado.
+
+y evitamos que en la actualizacion de onChange el campo se pueda escribir cualquier cosa.
